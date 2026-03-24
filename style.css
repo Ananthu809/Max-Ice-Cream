@@ -25,4 +25,43 @@ h1, h2 {
 
     background-color: black;
     color: white;
+
+    .repo-container {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.repo-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Dark gray */
+    color: #00e5ff; /* Cyan / Formula 1 accent color */
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.repo-link:hover {
+    background-color: #555;
+    color: #ffffff;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #888;
+    text-align: center;
+    border-top: 3px solid #ff0000; /* Red Bull Red accent line */
+    font-size: 14px;
+}
+
+footer a {
+    color: #00e5ff;
+    text-decoration: none;
+}
+
+
 }
