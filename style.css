@@ -1,4 +1,28 @@
 body {
+@import url('https://fonts.googleapis.com');
+h1, h2 {
+  font-family: 'Racing Sans One', sans-serif;
+}
+
+/* Target your button (make sure your <button> has this class) */
+.sound-button {
+  background-color: #1e1b4b; /* Dark Navy */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Makes the change smooth */
+}
+
+/* The Hover Effect */
+.sound-button:hover {
+  background-color: #ff0000; /* Red Bull Red */
+  transform: scale(1.1);     /* Makes it 10% larger */
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+}
+
+
     background-color: black;
     color: white;
 }
