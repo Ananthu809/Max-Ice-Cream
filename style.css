@@ -1,4 +1,16 @@
 body {
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bookmark-link {
+  color: #ff0000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
 @import url('https://fonts.googleapis.com');
 h1, h2 {
   font-family: 'Racing Sans One', sans-serif;
@@ -61,6 +73,18 @@ footer {
 footer a {
     color: #00e5ff;
     text-decoration: none;
+}
+
+/* This creates a glowing neon effect */
+.racing-glow {
+  color: #fff;
+  text-shadow: 
+    0 0 7px #ff0000,
+    0 0 10px #ff0000,
+    0 0 21px #ff0000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 
 
