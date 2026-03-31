@@ -25,16 +25,17 @@
  <center> <button class="sound-button">Click For Sound</button> </center>
 
  <script>
+const btn = document.querySelector('.sound-button'); 
+
 const audio = new Audio('audio.mp3'); 
 audio.loop = false; 
 
-document.body.addEventListener('click', () => {
-audio.currentTime = 0; 
-audio.play(); 
+btn.addEventListener('click', () => {
+    audio.currentTime = 0; 
+    audio.play();
 });
 </script>
 
-<!-- This adds a link to your repository -->
 <div class="repo-container">
     <p>Check out the code on GitHub:</p>
     <a href="https://github.com/Ananthu809/Max-Ice-Cream" target="_blank" class="repo-link">
@@ -48,5 +49,11 @@ audio.play();
 </footer>
 
 <center><p>Current Driver: <span class="racing-glow">Max Verstappen (he also loves ice cream)</span></p></center>
+
+<nav>
+    <a href="index.html">Home</a> | 
+    <a href="about.html">About</a> | 
+    <a href="projects.html">Projects</a>
+</nav>
 
 </html>  
